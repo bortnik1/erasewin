@@ -1,11 +1,8 @@
+Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
 "DisableAntiSpyware"=dword:00000000
 "AllowFastServiceStartup"=dword:00000001
-
-
-
-Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
 "DisableAntiSpyware"=dword:00000000
@@ -20,3 +17,15 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule
 
 
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TimeBrokerSvc
+
+
+[HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoUpdate"=dword:00000001
+"AllowFastServiceStartup"=dword:00000001
+
+[HKLM\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000000
+
+
+[HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile]
+"EnableFirewall" = dword:00000001
