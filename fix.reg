@@ -4,8 +4,6 @@ Windows Registry Editor Version 5.00
 "DisableAntiSpyware"=dword:00000000
 "AllowFastServiceStartup"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
-"DisableAntiSpyware"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
 "DisableBehaviorMonitoring"=dword:00000000
@@ -13,10 +11,11 @@ Windows Registry Editor Version 5.00
 "DisableScanOnRealtimeEnable"=dword:00000000
 "DisableIOAVProtection"=dword:00000000
 "DisableRealtimeMonitoring"=dword:00000000
-Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule
 
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TimeBrokerSvc
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\ScheduledDiagnostics]
+"EnabledExecution"=dword:00000001
 
 
 [HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
@@ -29,3 +28,12 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TimeBrokerSvc
 
 [HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile]
 "EnableFirewall" = dword:00000001
+
+[Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile]
+"EnableFirewall"=dword:00000001
+
+[Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile]
+"EnableFirewall"=dword:00000001
+
+[Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile]
+"EnableFirewall"=dword:00000001
