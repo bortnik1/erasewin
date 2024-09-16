@@ -6,3 +6,5 @@
 
 
 # https://github.com/Sycnex/Windows10Debloater/tree/master
+
+### irm "https://christitus.com/win" | iex
