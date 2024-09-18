@@ -15,3 +15,5 @@
 `iwr -useb https://git.io/debloat|iex`
 
 `irm bit.ly/ittea | iex`
+
+`irm https://get.activated.win | iex`
