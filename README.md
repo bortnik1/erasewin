@@ -7,4 +7,11 @@
 
 # https://github.com/Sycnex/Windows10Debloater/tree/master
 
-### irm "https://christitus.com/win" | iex
+` irm "https://christitus.com/win" | iex`
+
+
+`irm bit.ly/ittea | iex`
+
+`iwr -useb https://git.io/debloat|iex`
+
+`irm bit.ly/ittea | iex`
